@@ -1,0 +1,44 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* regole menù principale */
+header{
+  /* debug */
+  background-color: green;
+  height: 150px;
+  /* fine debug */
+}
+nav{
+  /* debug */
+  background-color: yellow;
+  height: 50%;
+  /* fine debug */
+}
+.menufix{
+  /* position: fixed; */
+  border-top: 1px solid black;
+}
+
+/* regole main page */
+main{
+  /* debug */
+  background-color: red;
+  min-height: 800px;
+  /* fine debug */
+}
+.homepage{
+  height: 695px;
+  background-image: url(../img/img/jumbotron.png);
+}
+.homepage > div{
+  margin: 0 0 0 140px;
+  /* debug */
+  background-color: white;
+  height: 60%;
+  width: 400px;
+  /* fine debug */
+}
