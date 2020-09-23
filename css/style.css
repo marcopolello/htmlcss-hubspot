@@ -25,7 +25,7 @@ nav{
 
 /* regole main page */
 main{
-  /* debug */
+  /* debug *
   background-color: red;
   min-height: 800px;
   /* fine debug */
@@ -35,10 +35,52 @@ main{
   background-image: url(../img/img/jumbotron.png);
 }
 .homepage > div{
-  margin: 0 0 0 140px;
   /* debug */
   background-color: white;
   height: 60%;
   width: 400px;
   /* fine debug */
 }
+.mid{
+  background-color: #F5F8FA;
+  /* debug */
+  height: 800px;
+  /* fine debug */
+}
+.container > div{
+  /* debug */
+  height: 200px;
+  background-color: blue;
+  margin-bottom: 20px;
+  /* fine debug */
+}
+.elements::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.sx{
+  float: left;
+  /* debug */
+  width: 30%;
+  height: 100%;
+  background-color: yellow;
+  /* fine debug */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* un contenitore che delimiti i margini */
+.container{
+  margin: 0 140px;
