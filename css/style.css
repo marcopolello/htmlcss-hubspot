@@ -42,25 +42,27 @@ main{
   /* fine debug */
 }
 .mid{
-  background-color: #F5F8FA;
-  /* debug */
+  padding: 10px 0 ;
+  /* background-color: #F5F8FA; */
+  background-color: red;
+  /* debug *
   height: 800px;
   /* fine debug */
 }
 .container > div{
-  /* debug */
-  height: 200px;
-  background-color: blue;
   margin-bottom: 20px;
+  /* debug */
+  height: 400px;
+  background-color: blue;
   /* fine debug */
 }
-.elements::after{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
 }
 
-.sx{
+.sx, .cx, .dx{
   float: left;
   /* debug */
   width: 30%;
@@ -68,19 +70,102 @@ main{
   background-color: yellow;
   /* fine debug */
 }
+.cx{
+  margin: 0 5%;
+}
+
+/* regole section data */
+.data{
+  padding: 10px 0 ;
+  background-color: #00B7AB;
+  /* debug *
+  height: 800px;
+  /* fine debug */
+}
+.graphic{
+  padding:20px 0 40px;
+}
+.row{
+  height: 50%;
+  /* debug */
+  background-color: white;
+  border: 1px solid black;
+  /* fine debug */
+}
+.numbers{
+  float: left;
+  width: 25%;
+  /* debug */
+  height: 100%;
+  background-color: red;
+  /* fine debug */
+}
+
+/* regole setion bottom */
+.bot{
+  padding: 10px 0 ;
+  background-color: rgb(255, 255, 255);
+  /* debug *
+  background-color: yellow;
+  height: 600px;
+  /* fine debug */
+}
+.couple{
+  margin: 20px 0;
+  /* debug */
+  height: 200px;
+  background-color: green;
+  /* fine debug */
+}
+.customers{
+  width: 30%;
+  display: inline-block;
+  /* debug */
+  height: 100%;
+  background-color: violet;
+  /* fine debug */
+}
+.partners{
+  width: 69%;
+  display: inline-block;
+  /* debug */
+  height: 100%;
+  background-color: pink;
+  /* fine debug */
+}
+.getfree{
+  width: 69%;
+  display: inline-block;
+  /* debug */
+  height: 100%;
+  background-color: pink;
+  /* fine debug */
+}
+.woman{
+  width: 30%;
+  display: inline-block;
+  /* debug */
+  height: 100%;
+  background-color: violet;
+  /* fine debug */
+}
+
+/* regole footer */
+footer{
+  padding: 10px 0 ;
+  background-color: rgb(50, 73, 91);
+  /* debug */
+  height: 500px;
+  /* fine debug */
+}
 
 
 
 
-
-
-
-
-
-
-
-
-
-/* un contenitore che delimiti i margini */
+/* contenitore che delimitano i margini */
 .container{
   margin: 0 140px;
+}
+.contain{
+  margin: 0 140px;
+}
