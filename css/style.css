@@ -12,6 +12,11 @@ header{
   height: 150px;
   /* fine debug */
 }
+.menubgtop{
+  background-color: rgb(244, 249, 253);
+  border-bottom: 1px solid black;
+}
+
 nav{
   position: relative;
   padding: 15px;
@@ -23,6 +28,7 @@ nav{
   height: 50%;
   /* fine debug */
 }
+
 /* nav top sinistro */
 .navsx{
   display: inline-block;
@@ -64,7 +70,6 @@ button{
 /* nav inferiore */
 .menu{
   padding: 10px;
-  border-top: 1px solid black;
   position: relative;
 }
 img#homelogo{
