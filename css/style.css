@@ -7,22 +7,93 @@
 
 /* regole menù principale */
 header{
-  /* debug */
+  /* debug *
   background-color: green;
   height: 150px;
   /* fine debug */
 }
 nav{
-  /* debug */
+  position: relative;
+  padding: 15px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  /* debug *
   background-color: yellow;
   height: 50%;
   /* fine debug */
 }
-.menufix{
-  /* position: fixed; */
-  border-top: 1px solid black;
+/* nav top sinistro */
+.navsx{
+  display: inline-block;
+}
+a.king{
+  text-decoration: none;
+  color: black;
+  margin: 10px;
+}
+a:hover{
+  text-decoration: underline;
+}
+a > img{
+  height: 13px;
+  width: 13px;
+}
+#contactnav{
+  padding: 10px;
+}
+/* nav top destro */
+.navdx{
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 10px;
+  margin-right: 10px;
+}
+button{
+  margin-left: 5px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: orange;
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
 }
 
+/* nav inferiore */
+.menu{
+  padding: 10px;
+  border-top: 1px solid black;
+  position: relative;
+}
+img#homelogo{
+  height: auto;
+  width: 110px;
+}
+.menusx{
+  display: inline-block;
+  margin-left: 20px;
+}
+.menudx{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  padding: 10px;
+}
+ul > li{
+  display: inline-block;
+  padding: 5px;
+}
+li > img{
+  width: 10px;
+  height: 10px;
+}
+li > a{
+  text-decoration: none;
+  color: black;
+}
 /* regole main page */
 main{
   /* debug *
