@@ -154,20 +154,146 @@ h1{
 
 /* regole parte centrale */
 .mid{
-  padding: 10px 0 ;
-  /* background-color: #F5F8FA; */
-  background-color: red;
+  background-color: #F5F8FA;
   /* debug *
   height: 800px;
   /* fine debug */
 }
 .container > div{
-  margin-bottom: 20px;
   /* debug *
+  margin-bottom: 20px;
   height: 400px;
   background-color: blue;
   /* fine debug */
 }
+
+/* sezione in cui c'è immagine cubo */
+.cubesector{
+  padding-top: 100px;
+  text-align: center;
+}
+.cubesector > img{
+  width: 263px;
+  height: auto;
+}
+h3{
+  font-size: 50px;
+  font-weight: 400 bold;
+  font-family: 'Markazi Text', serif;
+  margin-bottom: 20px;
+}
+.cubesector > p{
+  font-size: 20px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 400;
+  max-width: 800px;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+/* sezione CRM */
+.CRM{
+  background-color: white;
+  padding: 30px 50px;
+  margin-bottom: 30px;
+}
+.crmillustration{
+  float: left;
+  max-width: 30%;
+}
+.crmtext{
+  float: right;
+  max-width: 70%;
+}
+.CRM img{
+  width: 200px;
+  height: auto;
+}
+/* regole bottone Learn More */
+.Learn{
+  display: block;
+  color: white;
+  margin-top: 15px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: orange;
+  font-family: 'Markazi Text', serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.CRM button{
+  margin: auto;
+  margin-top: 20px;
+}
+/* regole sotto contenitori crmtext */
+h4{
+  font-size: 35px;
+  font-weight: 400 bold;
+  font-family: 'Markazi Text', serif;
+  margin-bottom: 20px;
+}
+.crmtext > p span{
+  font-size: 18px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+h5{
+  font-weight: 400 bold;
+  font-family: 'Markazi Text', serif;
+  font-size: 22px;
+  margin-top: 20px;
+}
+img.check{
+  background-color: red;
+  border-radius: 50%;
+  padding: 2px;
+  margin: 10px 3px 0 0;
+  width: 12px;
+  height: 12px;
+}
+.crmtext .inline{
+  display: inline-block;
+}
+.inline > span{
+  margin-right: 10px;
+}
+
+/* parte più inferiore della sezione mid */
+.rectangle{
+  text-align: center;
+  margin: 10px 20px;
+  /* debug *
+  min-height: 300px;
+  background-color: blue;
+  /* fine debug */
+}
+.hub{
+  margin-top: 10px;
+  width: 150px;
+  height: 150px;
+}
+.rectangle > p,h5{
+  margin-bottom: 20px;
+}
+.uncenter{
+  font-size: 14px;
+  text-align: left;
+}
+.learnmore{
+  color: white;
+  margin: 15px 0;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: orange;
+  font-family: 'Markazi Text', serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+
 .clearfix::after{
   content: "";
   display: table;
@@ -176,8 +302,9 @@ h1{
 
 .sx, .cx, .dx{
   float: left;
-  /* debug */
   width: 30%;
+  background-color: white;
+  /* debug *
   height: 100%;
   background-color: yellow;
   /* fine debug */
@@ -185,6 +312,7 @@ h1{
 .cx{
   margin: 0 5%;
 }
+
 
 /* regole section data */
 .data{
