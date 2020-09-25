@@ -292,6 +292,7 @@ img.check{
   font-weight: 400;
   cursor: pointer;
 }
+/* regola clearfix x elementi flottati */
 .clearfix::after{
   content: "";
   display: table;
@@ -458,14 +459,94 @@ h2{
 footer{
   padding: 10px 0 ;
   background-color: rgb(50, 73, 91);
-  /* debug */
+  /* debug *
   height: 500px;
   /* fine debug */
 }
+.footlist{
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+}
+.footlist > ul{
+  font-size: 16px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 400;
+  color: white;
+}
+.footlist ul > li{
+  display: block;
+}
+.footlist ul li:first-child{
+  font-size: 25px;
+  font-weight: bold;
+}
+.footlist a{
+  color: white;
+}
+.footlist a:visited{
+  color: pink;
+}
+#specbut{
+  color: rgb(50, 73, 91);
+  padding: 6px;
+  background-color: lightgrey;
+  font-family:'Markazi Text', serif;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 0;
+  border-style: none;
+}
+#social > a{
+  width: 20%;
+  margin-right: 12px;
+  text-decoration: none;
+}
+#social img{
+  height: 16px;
+  width: 16px;
+}
+.credits{
+  position: relative;
+}
+.footlanguage{
+  margin-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+.footlanguage > div{
+  text-align: center;
+}
+.footlanguage a{
+  color: white;
+}
 
-
-
-
+/* crediti, privacy e diritti legali */
+.footerlogo{
+  margin-top: 30px;
+  display: inline-block;
+}
+.footerlogo > img{
+  width: 110px;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+}
+.footerlegal{
+  position: absolute;
+  margin-top: 30px;
+  display: inline-block;
+  right: 0;
+}
+.footerlegal > a{
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+}
+.footerlegal > a:hover{
+  text-decoration: underline;
+}
 /* contenitore che delimitano i margini */
 .container{
   margin: 0 140px;
