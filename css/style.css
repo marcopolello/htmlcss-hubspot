@@ -4,6 +4,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* contenitore che delimita i margini della pagina */
+.contain{
+  margin: 0 140px;
+}
+
+/* regola clearfix x elementi flottati */
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* regole menù principale */
 header{
@@ -14,10 +25,9 @@ header{
 }
 .menubgtop{
   background-color: rgb(244, 249, 253);
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid rgb(50, 73, 91);
 }
 nav{
-  position: relative;
   padding: 15px;
   font-family: 'Dosis', sans-serif;
   font-size: 16px;
@@ -30,7 +40,7 @@ nav{
 
 /* nav top sinistro */
 .navsx{
-  display: inline-block;
+  float:left;
 }
 a.king{
   text-decoration: none;
@@ -46,14 +56,14 @@ a > img{
 }
 #contactnav{
   padding: 10px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* nav top destro */
 .navdx{
-  position: absolute;
-  display: inline-block;
-  right: 0;
-  bottom: 10px;
+  float: right;
   margin-right: 10px;
 }
 button{
@@ -71,21 +81,18 @@ button{
 /* nav inferiore */
 .menu{
   padding: 10px;
-  position: relative;
 }
 img#homelogo{
   height: auto;
   width: 110px;
 }
 .menusx{
-  display: inline-block;
+  float: left;
   margin-left: 20px;
+  margin-top: 10px;
 }
 .menudx{
-  display: inline-block;
-  position: absolute;
-  right: 0;
-  top: 1px;
+  float: right;
   padding: 10px;
 }
 ul > li{
@@ -159,13 +166,6 @@ h1{
   height: 800px;
   /* fine debug */
 }
-.container > div{
-  /* debug *
-  margin-bottom: 20px;
-  height: 400px;
-  background-color: blue;
-  /* fine debug */
-}
 
 /* sezione in cui c'è immagine cubo */
 .cubesector{
@@ -233,7 +233,7 @@ h4{
   font-family: 'Markazi Text', serif;
   margin-bottom: 20px;
 }
-.crmtext > p span{
+.crmtext > p, span{
   font-size: 18px;
   font-family: 'Markazi Text', serif;
   font-weight: 400;
@@ -274,6 +274,11 @@ img.check{
   width: 150px;
   height: 150px;
 }
+h4 + p{
+  font-size: 18px;
+  font-family: 'Markazi Text', serif;
+  font-weight: 400;
+}
 .rectangle > p,h5{
   margin-bottom: 20px;
 }
@@ -291,12 +296,6 @@ img.check{
   font-size: 18px;
   font-weight: 400;
   cursor: pointer;
-}
-/* regola clearfix x elementi flottati */
-.clearfix::after{
-  content: "";
-  display: table;
-  clear: both;
 }
 .sx, .cx, .dx{
   float: left;
@@ -546,11 +545,4 @@ footer{
 }
 .footerlegal > a:hover{
   text-decoration: underline;
-}
-/* contenitore che delimitano i margini */
-.container{
-  margin: 0 140px;
-}
-.contain{
-  margin: 0 140px;
 }
