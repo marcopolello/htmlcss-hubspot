@@ -394,43 +394,64 @@ h2{
   /* fine debug */
 }
 .couple{
-  margin: 20px 0;
-  /* debug */
+  margin: 50px 0;
+  /* debug *
   height: 200px;
   background-color: green;
   /* fine debug */
 }
 .customers{
   width: 30%;
-  display: inline-block;
-  /* debug */
+  float: left;
+  text-align: center;
+  /* debug *
   height: 100%;
   background-color: violet;
   /* fine debug */
 }
 .partners{
-  width: 69%;
-  display: inline-block;
-  /* debug */
+  width: 70%;
+  float: right;
+  /* debug *
   height: 100%;
   background-color: pink;
   /* fine debug */
+}
+.partner{
+  float: left;
+  width: 25%;
+  margin: auto;
+  text-align: center;
+  padding: 15px 0;
 }
 .getfree{
-  width: 69%;
-  display: inline-block;
-  /* debug */
+  width: 60%;
+  float: left;
+  padding-left: 10px;
+  /* debug *
   height: 100%;
   background-color: pink;
   /* fine debug */
 }
+.getfree > button{
+  margin: 20px 0;
+  font-size: 18px;
+  padding: 15px;
+}
 .woman{
-  width: 30%;
-  display: inline-block;
-  /* debug */
+  width: 40%;
+  float: right;
+  position: relative;
+  /* debug *
   height: 100%;
   background-color: violet;
   /* fine debug */
+}
+.woman > img{
+  width: 60%;
+  height: auto;
+  position: absolute;
+  right: 20px;
 }
 
 /* regole footer */
