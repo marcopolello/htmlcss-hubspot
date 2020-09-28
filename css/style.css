@@ -144,11 +144,9 @@ h1{
 .payoff > button{
   color: white;
   margin-top: 15px;
-  border-radius: 10px;
   padding: 20px;
   background-color: orange;
   font-size: 25px;
-  font-weight: 400 bold;
   cursor: pointer;
 }
 #underbutton{
