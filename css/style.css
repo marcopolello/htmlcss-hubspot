@@ -371,7 +371,7 @@ h2{
   border-right: 1px solid white;
 }
 .icon.special, .icone.special{
-    border-right: 0;
+  border-right: 0;
 }
 .icon > img{
   padding-top: 20px;
@@ -450,7 +450,7 @@ h2{
 .woman > img{
   width: 60%;
   height: auto;
-  position: absolute;
+  float: right;
   right: 20px;
 }
 
